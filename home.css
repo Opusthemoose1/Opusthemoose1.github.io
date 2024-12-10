@@ -35,6 +35,14 @@ h1 {
     font-size: larger;
     background-color: white;
 }
+.body-inner {
+    text-align: center;
+}
+ul.align{
+    display: inline-block;
+    text-align: left;
+
+}
 /* Centers all the headers in a pargraph tag */
 .para-titles h2 {
     text-align: center;
