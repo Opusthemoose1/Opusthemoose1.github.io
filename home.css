@@ -1,0 +1,47 @@
+
+/* Has to be here, otherwise there's white space on the edges */
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/* h1 here for the title of the page*/
+
+h1 {
+    color: #A9EF10;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00440b;
+}
+/* For the icon */
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.center_on_image
+{
+    position: relative;
+    bottom: 110px;
+}
+/* For the body paragraphs */
+.body {
+    border-style: solid inset; 
+    border-color: #A9EF10;
+    margin-right: 220px;
+    margin-left: 220px;
+    padding-left: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: white;
+}
+/* Centers all the headers in a pargraph tag */
+.para-titles h2 {
+    text-align: center;
+}
+/* Gradient background */
+#grad {
+    background-image: linear-gradient( #5610EF, #A9EF10);
+    background-size: 100% 100%;
+    min-height: 100%;
+  }
