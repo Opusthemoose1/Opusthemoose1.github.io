@@ -32,7 +32,8 @@ h1 {
     margin-left: 220px;
     padding-left: 12px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size: 16pt;
+    /* font-size: larger; */
     background-color: white;
 }
 .body-inner {
@@ -53,3 +54,25 @@ ul.align{
     background-size: 100% 100%;
     min-height: 100%;
   }
+.center-all-divs
+{
+   padding-left: 80px ;
+}
+.left-align-block
+{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+}
+.center-align-block
+{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+}
+.right-align-block
+{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+}
