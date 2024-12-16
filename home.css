@@ -70,9 +70,31 @@ ul.align{
     border: 2px solid black;
     width: 300px;
 }
-.right-align-block
-{
-    display: inline-block;
-    border: 2px solid black;
-    width: 300px;
+.right-align-block {
+    display: inline-block; /* Allows divs to sit side-by-side */
+    border: 2px solid black; /* Adds the border for the "card-like" effect */
+    width: 300px; /* Ensures consistent card width */
+    margin: 10px; /* Adds spacing between cards */
+    vertical-align: top; /* Aligns the cards to the top */
+    border-radius: 8px; /* Adds rounded corners for a smoother look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for the "card" effect */
+    padding: 10px; /* Adds some internal spacing for content */
+    background-color: #f9f9f9; /* Adds a light background color */
+}
+
+.right-align-block img {
+    width: 50% ;
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 4px; /* Matches the style of the card */
+    /* margin-left: 40px; */
+}
+
+.right-align-block ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+.right-align-block ul ul {
+    margin-left: 20px; /* Adds indentation for nested lists */
 }
